@@ -1,0 +1,27 @@
+#board{
+    text-align: center;
+    padding-top: 3em;
+}
+.row{
+    width: 302px;
+    margin: 0 auto;
+    clear: both;
+}
+.row>div{
+    cursor: pointer;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.top-left, .top-middle, .top-right{
+    border-bottom: 1px solid black;
+}
+.bottom-left, .bottom-middle, .bottom-right{
+    border-top: 1px solid black;
+}
+.top-left, .middle-left, .bottom-left{
+    border-right: 1px solid black;
+}
+.top-right, .middle-right, .bottom-right{
+    border-left: 1px solid black;
+}
