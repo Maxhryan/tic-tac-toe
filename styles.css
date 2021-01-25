@@ -7,11 +7,13 @@
     margin: 0 auto;
     clear: both;
 }
-.row>div{
+.row >div{
     cursor: pointer;
     float: left;
     width: 100px;
     height: 100px;
+    line-height: 100px;
+    font-size: 75px;
 }
 .top-left, .top-middle, .top-right{
     border-bottom: 1px solid black;
